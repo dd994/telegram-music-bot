@@ -1,2 +1,2 @@
-web: java $JAVA_OPTS -cp target/classes:target/m2e-wtp/*.jar com.gmail.ddzhunenko.Application
+web: java -Dserver.port=$PORT -jar target/bot-1.0-SNAPSHOT.jar
 
