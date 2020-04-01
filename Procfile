@@ -1,1 +1,1 @@
-worker: java -jar target/ffmusic-bot
+web: java -jar target/bot-1.0-SNAPSHOT
